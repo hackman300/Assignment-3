@@ -1,0 +1,11 @@
+A stack is the right choice for undo/redo because, with undos and redos, users sometimes need to go back to the last change made. The last-in-first-out method makes sure that 
+the top of the stack holds the most recent operation. Examples such as browsing history are when you want to navigate to recently visited pages.
+
+A queue is better for help desk systems because of its first-in-first-out method, which is best for handling tasks that need to be completed in the 
+order of arrival. In a support line or ticket queue, the first customer should be helped before the later ones. Enqueue adds new tickets to the end, 
+while dequeue serves the front. Queues prevent newer requests from jumping ahead.
+
+Custom stacks and queues are different from Python’s lists by allowing the creation of custom rules that are better for overall generalization 
+and fewer errors. Python lists allow data to be added at random, with no restriction on insertion or removal anywhere within the list. A stack 
+implementation limits operations to push/pop at one end, while a queue uses append/pop or collections for order. Custom stacks and 
+queues also allow for custom classes that allow for specific movement of values. 
