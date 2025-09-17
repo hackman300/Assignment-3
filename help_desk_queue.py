@@ -63,7 +63,7 @@ def run_help_desk():
                     print(f"Next customer: {name}")
 
             elif choice == "4":
-                print("\nWaiting customers:")
+                print("Waiting customers:")
                 if queue.is_empty():
                     print("No customers waiting.")
                 else:
